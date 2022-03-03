@@ -7,10 +7,7 @@ int main()
     {
         for(j=1;j<=n;j++)
         {
-            if(j==i||j==1||j==n)
-            printf("* ");
-            else
-            printf("  ");
+            printf("%c ",i+64);
         }
         printf("
 ");
